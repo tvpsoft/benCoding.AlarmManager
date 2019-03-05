@@ -4,6 +4,10 @@ The bencoding.AlarmManager module enables you to use the native Android AlarmMan
 
 This project can be found on github at [https://github.com/benbahrenburg/benCoding.AlarmManager](https://github.com/benbahrenburg/benCoding.AlarmManager)
 
+## CHANGED:
+The fix included the check for Android >= 8
+Built with SDK 7.5.0.GA
+
 ## IMPORTANT
 This module, provides access to the Android AlarmManager, which works very differently then iOS Local Notifications.  Please read the Android Docs to understand the limitations and differences between these to very different approaches. Android docs are available [here](http://developer.android.com/reference/android/app/AlarmManager.html).
 
